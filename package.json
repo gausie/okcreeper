@@ -1,0 +1,28 @@
+{
+  "name": "OkCreeper",
+  "version": "0.0.1",
+  "description": "Find what your friends have to say about OkCupid users",
+  "main": "app.js",
+  "dependencies": {
+    "connect": "~2.12.0",
+    "express": "~3.4.8",
+    "express3-handlebars": "~0.5.0",
+    "fb": "~0.6.2",
+    "mongoose": "~3.8.4",
+    "jade": "~1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gausie/okcreeper"
+  },
+  "author": "Gausie",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/gausie/okcreeper/issues"
+  },
+  "homepage": "https://github.com/gausie/okcreeper"
+}

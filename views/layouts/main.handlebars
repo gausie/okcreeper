@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Ok Creeper</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <link href="/css/style.css" rel="stylesheet">
+
+        <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+
+        <script src="/js/main.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="jumbotron">
+
+                <h1>OkCreeper</h1>
+
+                <p>Find what your Facebook friends have to say about OkCupid users.</p>
+
+                {{#with loginout}}
+                <a href='{{{uri}}}' class='btn btn-facebook' id='{{id}}'><i class="fa fa-facebook fa-lg"></i>{{text}}</a>
+                {{/with}}
+
+            </div>
+
+            {{{body}}}
+
+        </div>
+
+    </body>
+
+</html>
