@@ -1,10 +1,11 @@
+var config = require('./config');
+
 var hbs = require('express3-handlebars');
 var express = require('express');
 var connect = require('connect');
 var app = express()
-var server = require('http').createServer(app).listen(3000);
+var server = require('http').createServer(app).listen(config.port);
 
-var config = require('./config');
 var fb = require('fb');
 var mongoose = require('mongoose');
 
